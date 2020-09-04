@@ -16,24 +16,19 @@ html {
     background-color: #f5f5f5;
   }
 
-/* End copy */
-
-
+  /* End copy */
+  
+  
 body {
     background-image: url("background.jpg");
     background-size: cover;
 }
-
-h1, h2, h3, h4 {
-    font-family: Tajawal;
-}
-
+    
 nav {
     font-family: Tajawal;
 }
 
-footer {
-    border-top: 10px solid #BBCCF5;
+h1, h2, h3, h4 {
     font-family: Tajawal;
 }
 
@@ -57,4 +52,9 @@ footer {
 p {
     font-family: Lato;
     margin: 0;
+}
+
+footer {
+    border-top: 10px solid #BBCCF5;
+    font-family: Tajawal;
 }
