@@ -39,10 +39,26 @@ h1, h2, h3, h4 {
     padding: 20px;
 }
 
+.portfolio {
+    margin-top: 100px;
+    border: 2px solid #BBCCF5;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 0px;
+}
+
 .raincoat {
     max-width: 200px;
     margin-right: 25px;
     border-radius: 10px
+}
+
+.project-pic {
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .no-padding {
