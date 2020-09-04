@@ -24,6 +24,10 @@ body {
     background-size: cover;
 }
 
+h1, h2, h3, h4 {
+    font-family: Tajawal;
+}
+
 nav {
     font-family: Tajawal;
 }
@@ -37,12 +41,20 @@ footer {
     margin-top: 100px;
     border: 2px solid #BBCCF5;
     border-radius: 10px;
-    
-    
+    padding: 20px;
 }
 
 .raincoat {
     max-width: 200px;
     margin-right: 25px;
     border-radius: 10px
+}
+
+.no-padding {
+    padding: 0;
+}
+
+p {
+    font-family: Lato;
+    margin: 0;
 }
