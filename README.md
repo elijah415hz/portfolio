@@ -6,4 +6,4 @@ This site is my first foray into Bootstrap. I used the navbar example from [www.
 
 The content on every page is built using the Bootstrap grid system, and is set to fill the width of the screen on smaller screen sizes using breakpoints.
 
-This site is deployed at [https://elijah415hz.github.io/02-Bootstrap/index.html](https://elijah415hz.github.io/02-Bootstrap/index.html)
+This site is deployed at https://elijah415hz.github.io/portfolio/index.html
