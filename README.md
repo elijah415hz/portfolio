@@ -1,6 +1,4 @@
-# 02-Bootstrap
-
-## My first portfolio
+# My web developer portfolio
 
 ![portfolio preview](images/portfolio_preview.png)
 

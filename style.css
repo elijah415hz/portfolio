@@ -1,6 +1,6 @@
 
 /* Copied from Bootstrap to make sticky-footer */
-html {
+  html {
     position: relative;
     min-height: 100%;
   }
@@ -14,11 +14,11 @@ html {
     height: 60px; /* Set the fixed height of the footer here */
     line-height: 50px; /* Vertically center the text there (Reduced by 10px to accomodate footers top border!*/
     background-color: #f5f5f5;
-  }
+}
 
-  /* End copy */
-  
-  
+/* End copy */
+
+
 body {
     /* Mountian background */
     background-image: url("images/background.jpg");
@@ -33,16 +33,26 @@ h1, h2, h3, h4 {
     font-family: Tajawal;
 }
 
+h3 {
+    text-align: center;
+}
+
+p {
+    font-family: Lato;
+    margin: 0;
+}
+
+footer {
+    border-top: 10px solid #BBCCF5;
+    font-family: Tajawal;
+}
+
 .about-me {
     /* Positioning */
     margin-top: 10vh;
     border: 2px solid #BBCCF5;
     border-radius: 10px;
     padding: 20px;
-}
-
-.portfolio-box {
-    padding-bottom: 5px;
 }
 
 .raincoat {
@@ -55,45 +65,41 @@ h1, h2, h3, h4 {
 
 .project-pic {
     /* Positioning */
-    max-width: 100%;
-    height: auto;
-    margin: auto;
+    width: 200px;
+    margin: 20px auto;
     display: block;
-    margin: 15px 0px;
+    /* margin: 15px 0px; */
     /* Styling */
     border-radius: 10px;
-}
 
-.pic-container {
-    position: relative;
-}
-
-.caption {
-    /* Positioning */
-    position: absolute;
-    width: 70%;
-    padding-top: 6px;
-        /* Center Caption */
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    /* Styling */
-    color: #2d4ae9;
-    background: #ccc;
-    border-radius: 10px;
-    opacity: .75;
 }
 
 .no-padding {
     padding: 0;
 }
 
-p {
-    font-family: Lato;
-    margin: 0;
+
+.git-link {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    color: black;
+    padding: 2px 4px;
+    margin: 4px 8px 4px 0px;
 }
 
-footer {
-    border-top: 10px solid #BBCCF5;
-    font-family: Tajawal;
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+.flex-line {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
