@@ -2,8 +2,7 @@ import React from 'react'
 
 export default function Portfolio() {
     return (
-        <div className="container">
-        <div className="row justify-content-center justify-content-sm-start">
+       
           <div className="col-sm-11 bg-light about-me portfolio-box">
             <h2>Portfolio</h2>
             <hr/>
@@ -91,7 +90,6 @@ export default function Portfolio() {
               </span>
             </div>
           </div>
-        </div>
-      </div>
+     
     )
 }

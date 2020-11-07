@@ -2,8 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-  <div className="container">
-    <div className="row justify-content-center justify-content-sm-start">
+
       <div className="col-sm-11 bg-light about-me">
         <h2>Contact</h2>
         <hr/>
@@ -25,7 +24,6 @@ export default function Contact() {
         </form>
           
         </div>
-      </div>
-    </div>
+   
     )
 }

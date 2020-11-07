@@ -11,12 +11,15 @@ function App() {
   <Router>
     <div>
       <Navbar />
-          <Switch>
-            <Route exact path="/" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact" component={Contact} />
-          </Switch>
-
+        <div className="container">
+          <div className="row justify-content-center justify-content-sm-start">
+            <Switch>
+              <Route exact path="/" component={About} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/contact" component={Contact} />
+            </Switch>
+          </div>
+        </div>
       <Footer />
     </div>
   </Router>

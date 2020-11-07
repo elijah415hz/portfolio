@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function About() {
     return (
-    <div className="container">
-        <div className="row justify-content-center justify-content-sm-start">
             <div className="col-sm-11 bg-light about-me">
                 <h2>About Me</h2>
                 <hr />
@@ -48,7 +46,5 @@ export default function About() {
                     </p>
                 </div>
             </div>
-        </div>
-    </div>
     )
 }
