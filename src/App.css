@@ -1,38 +1,104 @@
-.App {
+
+/* Copied from Bootstrap to make sticky-footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 80px; /* Create 20px spacing above footer */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 50px; /* Vertically center the text there (Reduced by 10px to accomodate footers top border!*/
+  background-color: #f5f5f5;
+}
+
+/* End copy */
+
+body {
+  /* Mountain background */
+  background-image: url("images/background.jpg");
+  background-size: cover;
+}
+
+nav {
+  font-family: Tajawal;
+}
+
+h1, h2, h3, h4 {
+  font-family: Tajawal;
+}
+
+h3 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-family: Lato;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer {
+  border-top: 10px solid #BBCCF5;
+  font-family: Tajawal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-me {
+  /* Positioning */
+  margin-top: 10vh;
+  border: 2px solid #BBCCF5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.raincoat {
+  /* Positioning */
+  max-width: 200px;
+  margin-right: 25px;
+  /* Styling */
+  border-radius: 10px;
+}
+
+.project-pic {
+  /* Positioning */
+  width: 200px;
+  margin: 20px auto;
+  display: block;
+  /* margin: 15px 0px; */
+  /* Styling */
+  border-radius: 10px;
+
+}
+
+.no-padding {
+  padding: 0;
+}
+
+
+.git-link {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+  color: black;
+  padding: 2px 4px;
+  margin: 4px 8px 4px 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:black;
+  text-decoration: none;
+}
+
+.flex-line {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
