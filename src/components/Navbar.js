@@ -1,6 +1,10 @@
 import React from 'react'
+import { Link, useLocation } from "react-router-dom";
+
 
 export default function Navbar() {
+    const location = useLocation();
+
     return (
         <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="navbar-brand">
@@ -23,9 +27,21 @@ export default function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav">
                 <a href="Developer_Resume.pdf" className="nav-link">Resume</a>
-                <a className="nav-link" href="contact.html">Contact </a>
-                <a className="nav-link" href="portfolio.html">Portfolio</a>
-                <a className="nav-link active" href="index.html">About<span className="sr-only">(current)</span></a>
+                <Link to="/contact"
+                    className={location.pathname === "/contact"
+                    ? "nav-link active"
+                    : "nav-link"}>
+                        Contact
+                    </Link>
+                <Link to="/portfolio"
+                    className={location.pathname === "/portfolio"
+                    ? "nav-link active"
+                    : "nav-link"}>
+                        Portfolio
+                    </Link>
+                <Link to="/" className={location.pathname === "/"
+                  ? "nav-link active"
+                  : "nav-link"}>About</Link>
             </div>
         </div>
     </nav>
