@@ -1,0 +1,33 @@
+import React from 'react'
+
+export default function Navbar() {
+    return (
+        <nav className="navbar navbar-expand-sm navbar-light bg-light">
+        <div className="navbar-brand">
+            <span>Elijah Blaisdell - </span>
+            <span className="git-link">
+                <a href="https://github.com/elijah415hz/" target="_blank" rel="noreferrer">
+                     <i className="fa fa-github"></i>
+                </a>
+            </span>
+            <span className="git-link">
+                <a href="https://www.linkedin.com/in/elijahblaisdell/" target="_blank" rel="noreferrer">
+                    <i className="fa fa-linkedin"></i>
+                </a>
+            </span>
+        </div>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+                <a href="Developer_Resume.pdf" className="nav-link">Resume</a>
+                <a className="nav-link" href="contact.html">Contact </a>
+                <a className="nav-link" href="portfolio.html">Portfolio</a>
+                <a className="nav-link active" href="index.html">About<span className="sr-only">(current)</span></a>
+            </div>
+        </div>
+    </nav>
+    )
+}
