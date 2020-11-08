@@ -26,12 +26,11 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-                <a href="Developer_Resume.pdf" className="nav-link">Resume</a>
-                <Link to="/contact"
-                    className={location.pathname === "/contact"
+                <Link to="/resume"
+                    className={location.pathname === "/resume"
                     ? "nav-link active"
                     : "nav-link"}>
-                        Contact
+                        Resume
                     </Link>
                 <Link to="/my-portfolio"
                     className={location.pathname === "/my-portfolio"
