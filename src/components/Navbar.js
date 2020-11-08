@@ -33,8 +33,8 @@ export default function Navbar() {
                     : "nav-link"}>
                         Contact
                     </Link>
-                <Link to="/portfolio"
-                    className={location.pathname === "/portfolio"
+                <Link to="/my-portfolio"
+                    className={location.pathname === "/my-portfolio"
                     ? "nav-link active"
                     : "nav-link"}>
                         Portfolio
