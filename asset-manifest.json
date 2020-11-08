@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.541a9d58.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.44753f75.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.44753f75.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.a8f84166.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.a8f84166.js.map",
-    "static/js/2.9f9cfc92.chunk.js": "/my-portfolio/static/js/2.9f9cfc92.chunk.js",
-    "static/js/2.9f9cfc92.chunk.js.map": "/my-portfolio/static/js/2.9f9cfc92.chunk.js.map",
-    "index.html": "/my-portfolio/index.html",
-    "static/css/main.541a9d58.chunk.css.map": "/my-portfolio/static/css/main.541a9d58.chunk.css.map",
-    "static/js/2.9f9cfc92.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.9f9cfc92.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/my-portfolio/static/media/background.ee58c5cb.jpg",
-    "static/media/elected_officials.57a29720.png": "/my-portfolio/static/media/elected_officials.57a29720.png",
-    "static/media/homepageScreenshot.6f4ca78e.png": "/my-portfolio/static/media/homepageScreenshot.6f4ca78e.png",
-    "static/media/passwordGeneratorPreview.120ed633.png": "/my-portfolio/static/media/passwordGeneratorPreview.120ed633.png",
-    "static/media/raincoat.1f7b71fa.jpg": "/my-portfolio/static/media/raincoat.1f7b71fa.jpg",
-    "static/media/weatherThumbnail.864d9c03.png": "/my-portfolio/static/media/weatherThumbnail.864d9c03.png"
+    "main.css": "/portfolio/my-portfolio/static/css/main.59a42a10.chunk.css",
+    "main.js": "/portfolio/my-portfolio/static/js/main.44753f75.chunk.js",
+    "main.js.map": "/portfolio/my-portfolio/static/js/main.44753f75.chunk.js.map",
+    "runtime-main.js": "/portfolio/my-portfolio/static/js/runtime-main.6c859809.js",
+    "runtime-main.js.map": "/portfolio/my-portfolio/static/js/runtime-main.6c859809.js.map",
+    "static/js/2.9f9cfc92.chunk.js": "/portfolio/my-portfolio/static/js/2.9f9cfc92.chunk.js",
+    "static/js/2.9f9cfc92.chunk.js.map": "/portfolio/my-portfolio/static/js/2.9f9cfc92.chunk.js.map",
+    "index.html": "/portfolio/my-portfolio/index.html",
+    "static/css/main.59a42a10.chunk.css.map": "/portfolio/my-portfolio/static/css/main.59a42a10.chunk.css.map",
+    "static/js/2.9f9cfc92.chunk.js.LICENSE.txt": "/portfolio/my-portfolio/static/js/2.9f9cfc92.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/my-portfolio/static/media/background.ee58c5cb.jpg",
+    "static/media/elected_officials.57a29720.png": "/portfolio/my-portfolio/static/media/elected_officials.57a29720.png",
+    "static/media/homepageScreenshot.6f4ca78e.png": "/portfolio/my-portfolio/static/media/homepageScreenshot.6f4ca78e.png",
+    "static/media/passwordGeneratorPreview.120ed633.png": "/portfolio/my-portfolio/static/media/passwordGeneratorPreview.120ed633.png",
+    "static/media/raincoat.1f7b71fa.jpg": "/portfolio/my-portfolio/static/media/raincoat.1f7b71fa.jpg",
+    "static/media/weatherThumbnail.864d9c03.png": "/portfolio/my-portfolio/static/media/weatherThumbnail.864d9c03.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8f84166.js",
+    "static/js/runtime-main.6c859809.js",
     "static/js/2.9f9cfc92.chunk.js",
-    "static/css/main.541a9d58.chunk.css",
+    "static/css/main.59a42a10.chunk.css",
     "static/js/main.44753f75.chunk.js"
   ]
 }
