@@ -1,4 +1,8 @@
 import React from 'react'
+import homepageScreenshot from "../images/homepageScreenshot.png"
+import elected_officials from "../images/elected_officials.png"
+import weatherThumbnail from "../images/weatherThumbnail.png"
+import passwordGeneratorPreview from "../images/passwordGeneratorPreview.png"
 
 export default function Portfolio() {
     return (
@@ -8,7 +12,7 @@ export default function Portfolio() {
             <hr/>
     
     
-            <img src="/images/homepageScreenshot.png" alt="screenshot" className="project-pic img-thumbnail"/>
+            <img src={homepageScreenshot} alt="screenshot" className="project-pic img-thumbnail"/>
             <h3>We-patch</h3>
             <p>
               A web application that gardening enthusiasts that lack space, to people willing to share their excess space.
@@ -21,7 +25,7 @@ export default function Portfolio() {
               <span className="git-link">
                 <a href="https://github.com/elijah415hz/we-patch">
                   <i className="fa fa-github"></i>
-                  <span> See code on Github</span>                </a>
+                  <span> See code on Github</span></a>
               </span>
               <span className="git-link">
                 <a href="https://we-patch.herokuapp.com/">
@@ -30,7 +34,7 @@ export default function Portfolio() {
               </span>
             </div>
     
-            <img src="/images/elected_officials.png" alt="screenshot" className="project-pic img-thumbnail"/>
+            <img src={elected_officials} alt="screenshot" className="project-pic img-thumbnail"/>
             <h3>My Elected Officials</h3>
             <p>
               An interactive web application that displays elected officials based on a user entered address. Designed with
@@ -49,7 +53,7 @@ export default function Portfolio() {
                 </a>
               </span>
             </div>
-            <img src="/images/weatherThumbnail.png" alt="screenshot" className="project-pic img-thumbnail"/>
+            <img src={weatherThumbnail} alt="screenshot" className="project-pic img-thumbnail"/>
             <h3>Weather Dashboard</h3>
             <p>
               A weather dashboard using Open Weather Map to gather and display current weather and five day forecast for any
@@ -70,7 +74,7 @@ export default function Portfolio() {
             </div>
     
     
-            <img src="/images/passwordGeneratorPreview.png" alt="screenshot" className="project-pic img-thumbnail"/>
+            <img src={passwordGeneratorPreview} alt="screenshot" className="project-pic img-thumbnail"/>
             <h3>Password Generator</h3>
             <p>
               Password Generator generates randomized passwords based on user inputs. After selecting the length and

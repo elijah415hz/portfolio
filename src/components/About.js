@@ -1,4 +1,5 @@
 import React from 'react'
+import raincoat from '../images/raincoat.jpg'
 
 export default function About() {
     return (
@@ -7,7 +8,7 @@ export default function About() {
                 <hr />
                 <div className="col-12 no-padding">
                     <figure className="figure float-left">
-                        <img src="/images/raincoat.jpg" alt="" className="raincoat" />
+                        <img src={raincoat} alt="raincoat" className="raincoat" />
                         <figcaption className="figure-caption">
                             
                         </figcaption>
