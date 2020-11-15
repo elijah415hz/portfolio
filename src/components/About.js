@@ -45,6 +45,11 @@ export default function About() {
                     <p>
                         I hope to be able to incorporate those skills as I learn the workflow of a web development team.
                     </p>
+                    <br></br>
+                    <p>
+                    Languages: Python, JavaScript,  HTML/CSS<br></br>
+                    Libraries / Tools: Git, MongoDB, MySQL, Node, Express, Flask, Pandas, Matplotlib, React
+                    </p>
                 </div>
             </div>
     )
