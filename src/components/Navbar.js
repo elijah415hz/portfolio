@@ -19,6 +19,11 @@ export default function Navbar() {
                     <i className="fa fa-linkedin"></i>
                 </a>
             </span>
+            <span className="git-link">
+                <a href="mailto:elijahblaisdell@gmail.com" target="_blank" rel="noreferrer">
+                    <i className="fa fa-envelope"></i>
+                </a>
+            </span>
         </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
