@@ -1,7 +1,7 @@
 # Portfolio
 
-![Contents](https://img.shields.io/github/languages/top/elijah415hz/coffee-app-dashboard)
-![Last-Commit](https://img.shields.io/github/last-commit/elijah415hz/coffee-app-dashboard)
+![Contents](https://img.shields.io/github/languages/top/elijah415hz/portfolio)
+![Last-Commit](https://img.shields.io/github/last-commit/elijah415hz/portfolio)
 
 ![Screenshot](screenshot.png)
 
@@ -12,4 +12,3 @@ This is my developer portfolio! It is built using React and Bootstrap and is a g
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) 
 
 This application is covered by the MIT license.
-
