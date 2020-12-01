@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Document, Page, pdfjs} from 'react-pdf'
-import Developer_Resume from '../Developer_Resume.pdf'
+import Developer_Resume from '../elijah_blaisdell.pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
