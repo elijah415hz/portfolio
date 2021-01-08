@@ -22,6 +22,7 @@ body {
   /* Mountain background */
   background-image: url("./images/background.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 nav {

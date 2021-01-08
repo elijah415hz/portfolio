@@ -19,7 +19,7 @@ export default function Portfolio() {
         img={FlaskOfFinances}
         title="Flask of Finances"
         description={<p>Flask of Finances is a finances tracking app inspired by inspired by the book "Your Money or your Life."
-        I found after years of trying to get a clear picture of my budget that the fancy apps that connected to
+        I found after years of trying to get a clear picture of my budget, that the fancy apps that connected to
         all of my bank accounts and credit cards weren't working for me. The automagicness of it all meant that
         I just forgot to check up on it. I needed something a bit more hands on so that I'd be connecting with it
         on a more regular basis. I also wanted more control over the categories of my spending so that I could get
