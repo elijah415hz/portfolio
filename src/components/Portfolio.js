@@ -6,6 +6,7 @@ import FlaskOfFinances from "../images/FlaskOfFinances.png"
 import workoutTracker from "../images/workoutTracker.png"
 import employeeDirectory from "../images/employeeDirectory.png"
 import cfeclient from "../images/cfeclient.gif"
+import cozyBaby from '../images/cozyBaby.png'
 import Project from './Project'
 
 export default function Portfolio() {
@@ -28,6 +29,21 @@ export default function Portfolio() {
         }
         repo="https://github.com/elijah415hz/finances-flask-public"
         deployed="https://flask-of-finances.herokuapp.com/"
+      />
+
+      <Project 
+      img={cozyBaby}
+      title="Cozy Baby"
+      description={<p>
+        CozyBaby is my custom solution to monitor the temperature in my baby's room. We live in an old building with manual heat controls, 
+        so every night we look at the predicted low temperature for the night, then try to guess what level to set the heaters at and how 
+        warmly to dress him. I wanted to see how cold it really is in there, and how much the heat fluctuates based on the outside temperature.
+        To address this, I used a custom-built RaspberryPi temperature sensor, a MongoDB database, an AWS Lambda serverless function, and a
+        React/Typescript frontend hosted on Netlify.
+        Check out the README on Github for a walkthrough of how it all works behind the scenes!
+      </p>}
+      repo="https://github.com/elijah415hz/cozy-baby"
+      deployed="https://cozy-baby.netlify.app"
       />
 
       <Project
@@ -83,7 +99,7 @@ export default function Portfolio() {
         description={<p>
           An interactive web application that displays elected officials based on a user entered address. Designed with
           Materialize and jQuery, it is an exploration into API requests.
-                Created in collaboration with <a href="http://github.com/asmarcd">asmarcd,</a> <a href="http://github.com/BrandonP321">BrandonP321,</a> <a href="http://github.com/Stefj12">Stefj12,</a> and <a href="http://github.com/natewinter">natewinter.</a>
+                Created in collaboration with <a href="http://github.com/asmarcd">asmarcd,</a> <a href="http://github.com/BrandonP321">BrandonP321,</a> <a href="http://github.com/Stefj12">Stefj12,</a> and <a href="http://github.com/natewinter">natewinter. {' '}</a>
                 Built with Javascript and jQuery.
               </p>}
         repo="https://github.com/elijah415hz/election-dashboard"
