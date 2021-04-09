@@ -21,7 +21,7 @@ export default function About() {
                     </p>
                 <br></br>
                 <p>
-                    Languages: Python, JavaScript,  HTML/CSS<br></br>
+                    Languages: JavaScript, Typescript, Python, HTML, CSS<br></br>
                     Libraries / Tools: Git, MongoDB, MySQL, Node, Express, Flask, Pandas, Matplotlib, React
                     </p>
             </div>
