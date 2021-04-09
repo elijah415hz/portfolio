@@ -66,7 +66,7 @@ export default function Portfolio() {
         Owners of extra garden space can list their patches on We-patch, prospective gardeners can then find these
         patches via an intuitive map interface and connect with the owner. The site also gives an option to list a
         compost so that neighbors can drop off their excess yard waste and share cured compost.
-              Created in collaboration with <a href="http://github.com/JSK321">JSK321,</a> <a href="http://github.com/Shunpintseng">Shunpintseng,</a> <a href="http://github.com/ckomodo">ckomodo,</a> and <a href="http://github.com/Petar85">Petar85</a>
+              Created in collaboration with <a href="http://github.com/JSK321">JSK321,</a> <a href="http://github.com/Shunpintseng">Shunpintseng,</a> <a href="http://github.com/ckomodo">ckomodo,</a> and <a href="http://github.com/Petar85">Petar85. </a>
               Built with MySQL, Sequelize, Express, Express-sessions, Handlebars, Nodemailer, Leaflet, and Cloudinary. <br /> Guest account credentials: "gardener"|"password", and "owner"|"password".</p>}
         repo="https://github.com/elijah415hz/we-patch"
         deployed="https://we-patch.herokuapp.com/"

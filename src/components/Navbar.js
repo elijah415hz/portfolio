@@ -7,47 +7,47 @@ export default function Navbar() {
 
     return (
         <nav className="navbar navbar-expand-sm navbar-light bg-light">
-        <div className="navbar-brand">
-            <span>Elijah Blaisdell - </span>
-            <span className="git-link">
-                <a href="https://github.com/elijah415hz/" target="_blank" rel="noreferrer">
-                     <i className="fa fa-github"></i>
+            <div className="navbar-brand">
+                <span>Elijah Blaisdell - </span>
+                <a href="https://github.com/elijah415hz/" target="_blank" rel="noreferrer" >
+                    <span className="git-link" style={{ position: "relative", bottom: "3px" }}>
+                        <i className="fa fa-github" style={{ position: "relative", top: "3px" }}></i>
+                    </span>
                 </a>
-            </span>
-            <span className="git-link">
                 <a href="https://www.linkedin.com/in/elijahblaisdell/" target="_blank" rel="noreferrer">
-                    <i className="fa fa-linkedin"></i>
+                    <span className="git-link" style={{ position: "relative", bottom: "3px" }}>
+                        <i className="fa fa-linkedin" style={{ position: "relative", top: "3px" }}></i>
+                    </span>
                 </a>
-            </span>
-            <span className="git-link">
                 <a href="mailto:elijahblaisdell@gmail.com" target="_blank" rel="noreferrer">
-                    <i className="fa fa-envelope"></i>
+                    <span className="git-link" style={{ position: "relative", bottom: "3px" }}>
+                        <i className="fa fa-envelope" style={{ position: "relative", top: "3px" }}></i>
+                    </span>
                 </a>
-            </span>
-        </div>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-                <Link to="/resume"
-                    className={location.pathname === "/resume"
-                    ? "nav-link active"
-                    : "nav-link"}>
+            </div>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div className="navbar-nav">
+                    <Link to="/resume"
+                        className={location.pathname === "/resume"
+                            ? "nav-link active"
+                            : "nav-link"}>
                         Resume
                     </Link>
-                <Link to="/my-portfolio"
-                    className={location.pathname === "/my-portfolio"
-                    ? "nav-link active"
-                    : "nav-link"}>
+                    <Link to="/my-portfolio"
+                        className={location.pathname === "/my-portfolio"
+                            ? "nav-link active"
+                            : "nav-link"}>
                         Portfolio
                     </Link>
-                <Link to="/" className={location.pathname === "/"
-                  ? "nav-link active"
-                  : "nav-link"}>About</Link>
+                    <Link to="/" className={location.pathname === "/"
+                        ? "nav-link active"
+                        : "nav-link"}>About</Link>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     )
 }
