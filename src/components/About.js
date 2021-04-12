@@ -14,10 +14,10 @@ export default function About() {
                     </figcaption>
                 </figure>
                 <p>
-                    I am a freelance classical singer turned web developer. As I singer I worked with some of the best professional 
-                    choirs in the country, winning a Grammy Award with one of them in 2018. I've been studying software development 
-                    for the past few years, hoping to eventually pivot into a new career that doesn't require me to be on the road so much. 
-                    The loss of most of my singing work following the arrival of the pandemic allowed me to start working full time on making 
+                    I am a freelance classical singer turned web developer. As a singer I worked with some of the best professional 
+                    choirs in the country, winning a Grammy Award as a soloist with one of them in 2018. I've been studying software development 
+                    for the past few years, with the goal of pivoting into a new career that doesn't require me to be on the road so much. 
+                    Losing all of my singing work at the beginning of the pandemic allowed me to start working full-time on making 
                     this career shift, and I've recently begun my new career with an internship at a young, fast-moving startup.
                     </p>
                 <p>
