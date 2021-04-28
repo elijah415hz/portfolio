@@ -2,7 +2,7 @@ import React from 'react'
 import homepageScreenshot from "../images/homepageScreenshot.png"
 import elected_officials from "../images/elected_officials.png"
 import weatherThumbnail from "../images/weatherThumbnail.png"
-import FlaskOfFinances from "../images/FlaskOfFinances.png"
+import FlaskOfFinances from "../images/FlaskOfFinances.jpg"
 import workoutTracker from "../images/workoutTracker.png"
 import employeeDirectory from "../images/employeeDirectory.png"
 import cfeclient from "../images/cfeclient.gif"
